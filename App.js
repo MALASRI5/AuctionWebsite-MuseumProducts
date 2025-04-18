@@ -8,12 +8,13 @@ import Department from './components/Department/depmnt';
 import Services from './components/Services/serviceProvided';
 import ReachUs from './components/ReachUs/reachus';
 import Register from './components/Register/signin';
+import Auction from './components/auction/AuctionDept';
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        {/* <Route path="/auctions" element={<Auctions />} /> */}
+        <Route path="/Muzeolux/auctions" element={<Auction />} />
         <Route path="/Muzeolux/buy" element={<Buy />} />
         <Route path="/Muzeolux/sell" element={<Sell />} />
         <Route path="/Muzeolux/departments" element={<Department />} />

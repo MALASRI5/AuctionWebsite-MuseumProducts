@@ -72,7 +72,6 @@ function Footer() {
                         <img src={Playstore} alt="android-app" width={130}></img>
                         <img src={Appleios} alt="iphone-app" width={130}></img>
                     </div>
-
                     <h4>Follow Us</h4>
                     <div className="social-icons">
                         <FontAwesomeIcon icon={faFacebook} className="social-icon" />
@@ -83,7 +82,6 @@ function Footer() {
                     </div>
                 </div>
             </div>
-
             <div className="footer-copyrights">
                 <p>&copy; Copyright MuzeoLux 2025. All Rights Reserved</p>
             </div>
