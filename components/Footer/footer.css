@@ -1,0 +1,126 @@
+* {
+    font-family: Cambria, Georgia, serif;
+}
+
+.newsletter {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background: radial-gradient(rgb(69, 11, 11),rgb(61, 20, 20));
+}
+.newsletter h2{
+    font-size: 30px;
+    letter-spacing: .9px;
+}
+.newsletter p {
+    font-size: 15px;
+}
+
+.newsletter-form {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+
+.icon {
+    color: rgb(215, 212, 212);
+    margin-right: 8px;
+}
+
+input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+}
+
+.submit-btn {
+    background-color: #4e4949;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.footer-content {
+    line-height: 25px;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-list li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: .9rem;
+    color: gray;
+}
+
+.footer-list li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer-copyrights {
+    text-align: center;
+}
+@media (max-width:768px){
+    .footer{
+        width: 100%;
+    }
+    .newsletter-form{
+        flex-direction: column;
+    }
+    .footer-content{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .download img{
+        margin-left: 10px;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .social-icons{
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+}

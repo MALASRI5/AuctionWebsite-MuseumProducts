@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-content ul,
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-content ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.nav-search button {
+  margin-right: 20px;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+.nav-search button:hover {
+  background-color: goldenrod;
+}
+@media (max-width:768px){
+  .nav-content{
+    display: none;
+  }
+  .nav-search{
+    display: none;
+    width: 100%;
+  }
+}

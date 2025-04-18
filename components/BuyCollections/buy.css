@@ -1,0 +1,72 @@
+.buyProducts{
+    background-color: whitesmoke;
+}
+
+.img-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Buy-Details {
+    padding: 25px 25px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Buy-Details p {
+    line-height: 27px;
+    font-size: 1rem;
+    word-spacing: 1px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.Buy-Details li {
+    word-spacing: 1.5px;
+}
+
+.Reason-to-buy{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    line-height: 26px;
+}
+
+.faq-container {
+    width: 70%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(243, 240, 240);
+    padding: 12px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+}
+
+.faq-icon {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #d8a91c;
+}
+
+.faq-answer {
+    padding: 10px;
+    border-left: 3px solid #c49b23;
+    background: white;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+@media (max-width:768px){
+    .img-container img{
+    width: 400px;
+    }
+}

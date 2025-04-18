@@ -1,0 +1,77 @@
+.sell {
+    padding: 50px;
+    background-color: rgb(241, 246, 251);
+    line-height: 26px;
+}
+
+
+.Three-steps {
+    display: flex;
+    justify-content: center;
+}
+
+.Step {
+    width: 350px;
+
+}
+
+.Step img {
+    width: 300px;
+    border-radius: 7px;
+}
+
+figcaption {
+    margin-left: 25px;
+}
+
+.Step-List {
+    text-align: justify;
+}
+
+.estimate{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    gap: 40px;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.est-detls , 
+.demo-detls{
+    text-align: justify;
+    margin-top: 60px;
+}
+
+.est-detls button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+button {
+    margin-right: 20px;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+.demo{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    display: flex;
+    margin-right: 20px;
+    gap: 40px;
+}
