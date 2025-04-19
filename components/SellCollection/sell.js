@@ -63,6 +63,7 @@ const SellProducts = () => {
 
     return (
         <div className='sell'>
+            <h2>Sell</h2>
             <div className='Img-container'>
                 <img src={SellImage} alt='Indian arts' width={1150}></img>
             </div>

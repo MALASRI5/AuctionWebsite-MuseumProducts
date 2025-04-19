@@ -83,7 +83,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footer-copyrights">
-                <p>&copy; Copyright MuzeoLux 2025. All Rights Reserved</p>
+                <p>&copy; Copyright MuzeoLux 2020. All Rights Reserved</p>
             </div>
         </div>
     );

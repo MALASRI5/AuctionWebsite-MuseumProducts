@@ -2,9 +2,8 @@
     padding: 50px;
     background-color: rgb(241, 246, 251);
     line-height: 26px;
+    padding-top: 10px;
 }
-
-
 .Three-steps {
     display: flex;
     justify-content: center;

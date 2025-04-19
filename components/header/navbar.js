@@ -31,12 +31,12 @@ function Navbar() {
         <div><img src={Logo} alt='Logo' className='logo' width={200} /></div>
         <div className='nav-content'>
           <ul>
-            <li onClick={() => navigate('MuzeoLux/auctions')} style={{ cursor: 'pointer' }}>AUCTIONS+</li>
-            <li onClick={() => navigate('MuzeoLux/buy')} style={{ cursor: 'pointer' }}>BUY</li>
-            <li onClick={() => navigate('MuzeoLux/sell')} style={{ cursor: 'pointer' }}>SELL</li>
-            <li onClick={() => navigate('MuzeoLux/departments')} style={{ cursor: 'pointer' }}>DEPARTMENTS</li>
-            <li onClick={() => navigate('MuzeoLux/services')} style={{ cursor: 'pointer' }}>SERVICES+</li>
-            <li onClick={() => navigate('MuzeoLux/reach-us')} style={{ cursor: 'pointer' }}>REACH US</li>
+            <li onClick={() => navigate('auctions')} style={{ cursor: 'pointer' }}>AUCTIONS+</li>
+            <li onClick={() => navigate('buy')} style={{ cursor: 'pointer' }}>BUY</li>
+            <li onClick={() => navigate('sell')} style={{ cursor: 'pointer' }}>SELL</li>
+            <li onClick={() => navigate('departments')} style={{ cursor: 'pointer' }}>DEPARTMENTS</li>
+            <li onClick={() => navigate('services')} style={{ cursor: 'pointer' }}>SERVICES+</li>
+            <li onClick={() => navigate('reach-us')} style={{ cursor: 'pointer' }}>REACH US</li>
           </ul>
         </div>
         <div>

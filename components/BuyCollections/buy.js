@@ -53,6 +53,7 @@ function BuyProducts() {
 
     return (
         <div className="buyProducts">
+            <h2>Buy</h2>
             <div className="img-container">
                 <img src={buyImage} alt="Buy Art" />
             </div>

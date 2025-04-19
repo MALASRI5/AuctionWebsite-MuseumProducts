@@ -10,7 +10,7 @@ const LoginModal = ({ onClose, onOpenRegister }) => {
   };
   
   const handleCreateAccount = () => {
-    navigate("/MuzeoLux/register"); 
+    navigate("/register"); 
     onClose(); 
   };
 

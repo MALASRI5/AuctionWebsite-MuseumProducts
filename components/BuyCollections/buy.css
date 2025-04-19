@@ -1,9 +1,12 @@
 .buyProducts{
     background-color: whitesmoke;
+    padding-top: 5px;
+    text-align: justify;
 }
-
+.buyProducts h2{
+    padding-left: 20px;
+}
 .img-container {
-    padding-top: 20px;
     display: flex;
     justify-content: center;
 }

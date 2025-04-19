@@ -1,5 +1,31 @@
-.auction-navbar{
-    margin-left: 50px;
-    display: flex;
-    gap: 50px;
+.Auction-section {
+    background-color: azure;
+}
+
+.auction-navbar h3 {
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    color: #333;
+}
+.Auction-section h2{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.auction-navbar h3.active {
+    color: goldenrod;
+    border-bottom: 2px solid goldenrod;
+}
+
+.Live-Auction,
+.Upcoming-Auction,
+.Auction-Results {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.Live-Auction p,
+.Upcoming-Auction p,
+.Auction-Results p{
+    text-align:center;
 }
