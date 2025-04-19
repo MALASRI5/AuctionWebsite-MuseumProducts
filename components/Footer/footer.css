@@ -1,7 +1,9 @@
 * {
     font-family: Cambria, Georgia, serif;
 }
-
+.footer{
+    margin-top: 0px;
+}
 .newsletter {
     padding: 50px;
     text-align: center;

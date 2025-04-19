@@ -12,6 +12,13 @@ import Auction from './components/auction/AuctionDept';
 import MasterLegacy from './components/assets/MasterLegacy.jpg';
 import ContemporaryArts from './components/assets/Contemporary Indian Arts.jpg';
 import HairloomCollectibles from './components/assets/Hairloom Collectibles.jpg';
+import Advisory from './components/assets/Advisory.jpg'
+import Restoration from './components/assets/Restoration-min.jpg'
+import MuseumServices from './components/assets/Museum-Services.jpg'
+import PostSale from './components/assets/Post-Sale-Services-Services-min.jpg'
+import Storage from './components/assets/Storage-min.jpg'
+import CollectionServices from './components/assets/Collection-Service-1-min.jpg'
+import AuctionCarousel from './components/auction/AuctionCaurosel';
 import './App.css'
 function App() {
   return (
@@ -28,13 +35,13 @@ function App() {
                   <h2 className="auction-heading">Auctions On The Way</h2>
                   <div className="auction-content">
                     <div className="auction-description">
-                      <p style={{textAlign:'justify'}}>
+                      <p style={{ textAlign: 'justify' }}>
                         Over the years, we have curated a wide range of online auctions in India, covering a diverse array of categories.
                         Our portfolio boasts an impressive collection of Modern Indian Art from famous painters, exquisite vintage jewellery,
                         fine silverware, rare timepieces, luxurious textiles, coveted celebrity memorabilia, rare books, numismatic treasures,
                         philatelic gems, and even vintage cars. Take a look at the offering’s in our upcoming online auctions.
                       </p>
-                      <button className="auction-button" style={{width:'200px', height: '50px'}}>ALL UPCOMING AUCTIONS</button>
+                      <button className="auction-button" style={{ width: '200px', height: '50px' }}>ALL UPCOMING AUCTIONS</button>
                     </div>
 
                     <div className="auction-cards">
@@ -58,7 +65,51 @@ function App() {
                     </div>
                   </div>
                 </section>
-               
+                <AuctionCarousel />
+                <div class="service-container">
+                  <h2>OUR SERVICES</h2>
+                  <div class="service-banner">
+                    <p>Explore the range of services we offer</p>
+                    <div class="service-scroll">
+                      <div class="service-box">
+                        <div class="service-number">01</div>
+                        <img src={Advisory} alt="Advisory" />
+                        <h4>Client Advisory</h4>
+                      </div>
+
+                      <div class="service-box">
+                        <div class="service-number">02</div>
+                        <img src={Restoration} alt="Restoration" />
+                        <h4>Restoration</h4>
+                      </div>
+
+                      <div class="service-box">
+                        <div class="service-number">03</div>
+                        <img src={MuseumServices} alt="MuseumServices" />
+                        <h4>Museum Services</h4>
+                      </div>
+
+                      <div class="service-box">
+                        <div class="service-number">04</div>
+                        <img src={PostSale} alt="PostSale" />
+                        <h4>Post Sale Services</h4>
+                      </div>
+
+                      <div class="service-box">
+                        <div class="service-number">05</div>
+                        <img src={Storage} alt="Storage" />
+                        <h4>Storage Services</h4>
+                      </div>
+
+                      <div class="service-box">
+                        <div class="service-number">06</div>
+                        <img src={CollectionServices} alt="Collection Services" />
+                        <h4>Collection Services</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </>
           }>
