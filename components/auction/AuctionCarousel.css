@@ -1,6 +1,7 @@
-.auction-container {
+.auction-containerr {
   padding: 2rem;
   text-align: center;
+  background-color: whitesmoke;
 }
 
 .auction-grid {
@@ -14,7 +15,7 @@
   background: #fff;
   border-radius: 12px;
   padding: 1rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -48,4 +49,3 @@
   border-radius: 6px;
   cursor: pointer;
 }
-

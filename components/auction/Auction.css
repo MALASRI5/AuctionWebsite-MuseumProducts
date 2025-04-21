@@ -1,31 +1,226 @@
-.Auction-section {
-    background-color: azure;
+.auction-container {
+    font-family: 'Georgia', serif;
+    padding: 40px;
+    color: #2b2b2b;
+    background-color: rgb(241, 246, 251);
 }
 
-.auction-navbar h3 {
-    display: inline-block;
-    margin: 20px;
+.auction-tabs {
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.auction-tabs h3 {
+    font-size: 24px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.auction-tabs h3.active {
+    color: #c19e59;
+    font-weight: bold;
+    border-bottom: 3px solid #c19e59;
+}
+
+.auction-search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.auction-search input {
+    flex: 1;
+    padding: 10px;
+    font-style: italic;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    color: #1e1e1e;
+}
+
+.auction-search button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.view-toggle {
+    margin-left: auto;
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+    color: #333;
+}
+
+.results-info {
+    font-style: italic;
+    color: #555;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.filter-bar {
+    border-bottom: 3px solid #c19e59;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-btn {
+    background: #1e1e1e;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auction-message {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1e1e1e;
+    padding: 40px 20px;
+}
+
+.auction-gallery {
+    font-family: 'Georgia', serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.search-icon {
+    margin-right: 8px;
+    font-size: 16px;
+    color: #888;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.results-info {
+    font-style: italic;
+    color: #333;
+}
+
+.filter-tabs {
+    display: flex;
+    border-bottom: 2px solid #b58d3b;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
     cursor: pointer;
     color: #333;
 }
-.Auction-section h2{
-    margin-top: 0;
-    padding-top: 20px;
-}
-.auction-navbar h3.active {
-    color: goldenrod;
-    border-bottom: 2px solid goldenrod;
+
+.tab-button.active {
+    border-bottom: 3px solid #000;
 }
 
-.Live-Auction,
-.Upcoming-Auction,
-.Auction-Results {
-    margin-top: 20px;
+.auction-grid,
+.auction-grided {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.auction-grided {
+    gap: 8px;
+}
+
+.auction-carded:hover {
+    background-color: white;
+}
+
+.auction-card {
+    width: 37%;
+}
+
+.auction-carded {
+    width: 280px;
+    height: 420px;
+    justify-content: center;
+    text-align: center;
+}
+
+.auction-status {
+    font-weight: bold;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card {
+    width: 290px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.carded-image {
+    margin-top: 10px;
+    width: 270px;
+}
+
+.card-image {
+    width: 290px;
+    height: 214px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card-title {
     font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 8px;
 }
 
-.Live-Auction p,
-.Upcoming-Auction p,
-.Auction-Results p{
-    text-align:center;
+.card-date {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.card-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
 }

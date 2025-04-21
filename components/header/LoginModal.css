@@ -91,3 +91,10 @@
     cursor: pointer;
   }
   
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-align: center;
+  }
+  

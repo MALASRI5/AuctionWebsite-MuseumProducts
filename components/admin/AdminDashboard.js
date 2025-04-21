@@ -1,20 +1,19 @@
-import { Routes, Route } from "react-router-dom";
+import React from "react";
 import Sidebar from "./Sidebar";
-import UsersTable from "./UsersTable";
 import AuctionList from "./AuctionList";
 import Reports from "./Reports";
-import './Sidebar.css';
+import UsersTable from "./UsersTable";
+import './AdminDashboard.css'
 
 const AdminDashboard = () => {
   return (
-    <div className="admin-container">
+    <div className="admin-dashboard" >
       <Sidebar />
-      <div className="admin-main">
-        <Routes>
-          <Route path="/admin/users" element={<UsersTable />} />
-          <Route path="/admin/auctions" element={<AuctionList />} />
-          <Route path="/admin/reports" element={<Reports />} />
-        </Routes>
+      <div className="admin-content">
+        <h1>Admin Dashboard</h1>
+        <UsersTable />
+        <AuctionList />
+        <Reports />
       </div>
     </div>
   );
